@@ -1,0 +1,20 @@
+form{
+    background-color: lightpink;
+    display: inline-block;
+    padding: 20px;
+    
+}
+form div{
+    margin: 20px;
+}
+form label{
+    display: inline-block;
+    width: 100px;
+}
+fieldset{
+    background-color: aquamarine;
+}
+legend{
+    font-size: 1rem;
+    font-style:italic;
+}

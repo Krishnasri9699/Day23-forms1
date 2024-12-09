@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms1</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Personal Details</legend>
+            <div>
+                <label>First Name</label>
+                <input>
+            </div>
+           
+            <div>
+                <label>Last Name</label>
+                <input>
+            </div>
+           
+            <div>
+                <label>Father Name</label>
+                <input>
+           </div>
+            
+           <div>
+                <label>Mother Name</label>
+                <input>
+            </div>
+           
+            <div>
+                <label>Date of Birth</label>
+                <input placeholder="dd-mm-yyyy">
+           </div>
+            
+           <div>
+                <label>Gender</label>
+                <input list="Genderlist"/> 
+                <datalist id="Genderlist">
+                    <option value="Male"></option>
+                    <option value="Female"></option>
+                    <option value="Others"></option>
+               </datalist>
+           </div>
+           <div>
+                <label>Mobile Number</label>
+                <input>
+            </div>
+    
+            <div>
+                <label>Mail ID</label>
+                <input>
+            </div>
+            <div>
+                <label>Address</label>
+                <textarea></textarea>
+            </div>
+            <div>
+                <label>State</label>
+                <select>
+                    <optgroup label="North India">
+                        <option>Jammu&Kashmir</option>
+                        <option>Himachal Pradesh</option>
+                        <option>Punjab</option>
+                        <option>Uttarakhand</option>
+                        <option>Haryana</option>
+                        <option>Delhi</option>
+                        <option>UttarPradesh</option>
+                    </optgroup>
+                    <optgroup label="West India">
+                        <option>Rajasthan</option>
+                        <option>Gujarat</option>
+                        <option>Maharashtra</option>
+                    </optgroup>
+                    <optgroup label="South India">
+                        <option>AndhraPradesh</option>
+                        <option>telangana</option>
+                        <option>Karnataka</option>
+                        <option>Kerala</option>
+                        <option>Tamilnadu</option>
+                    </optgroup>
+                    <optgroup label="East India">
+                        <option>West Bengal</option>
+                        <option>Meghalaya</option>
+                        <option>Mizoram</option>
+                        <option>Nagaland</option>
+                        <option>sikkim</option>
+                        <option>Bihar</option>
+                    </optgroup>
+                
+                
+                </select>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Academic Details</legend>
+          <div>
+             <label>Highest Education</label>
+                <select>
+                   <option>SSC</option>
+                   <option>Intermediate</option>
+                   <option>Graduation</option>
+                   <option>Post Graduation</option>
+                   <option>PHD</option>
+               </select>
+         </div>
+      </fieldset> 
+        
+
+     <div>
+        <button type="Submit">Submit</button>
+        <button type="Reset">Reset</button>
+        <button type="Button">Button</button>
+
+
+    </div>   
+    </form>
+    
+</body>
+</html>
